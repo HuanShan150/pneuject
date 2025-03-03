@@ -1,5 +1,9 @@
 package com.app.pneuject.model;
 
+import java.util.List;
+
+import com.fasterxml.jackson.annotation.JsonManagedReference;
+
 import jakarta.persistence.*;
 
 @Entity
@@ -15,6 +19,10 @@ public abstract class Veiculo {
     private Integer quilometragem;
     private String status;
     private Integer numEixos;
+    
+    @OneToMany(mappedBy = "veiculo", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    @JsonManagedReference
+    private List<VeiculoPneu> pneus;
     
     public Veiculo() {}
     
@@ -76,4 +84,13 @@ public abstract class Veiculo {
         this.numEixos = NumEixos;
     }
     
+
+    public List<VeiculoPneu> getPneus() {
+        return this.pneus;
+    }
+
+    public void setPneus(List<VeiculoPneu> pneus) {
+        this.pneus = pneus;
+    }
+
 }

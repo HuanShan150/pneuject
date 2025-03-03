@@ -1,5 +1,8 @@
 package com.app.pneuject.model;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
+
 import jakarta.persistence.*;
 
 @Entity
@@ -8,9 +11,11 @@ public class VeiculoPneu {
     private Long id;
     
     @ManyToOne
+    @JsonBackReference
     private Veiculo veiculo;
     
     @ManyToOne
+    @JsonManagedReference
     private Pneu pneu;
     
     private String posicao;

@@ -11,6 +11,7 @@ public class Carro extends Veiculo {
 
     public Carro(String placa, String marca, Integer quilometragem, String status, Integer numEixos) {
         super(placa, marca, quilometragem, status, numEixos);
+        numEixos = 2;
     }
 
     

@@ -18,4 +18,9 @@ public class VeiculoController {
     public List<Veiculo> listarTodos() {
         return service.listarTodos();
     }
+
+    @GetMapping("/{id}")
+    public Veiculo buscarVeiculo(@PathVariable Long id) {
+        return service.buscarPorId(id);
+    }
 }
