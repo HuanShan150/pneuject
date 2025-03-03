@@ -87,17 +87,23 @@ A estrutura do projeto segue a arquitetura em CAMADAS , dividida nos seguintes p
 **Banco de Dados**
 
   Veículo:
+  
     ID (PK)
+    
     Placa
+    
     Marca
+    
     Quilometragem
+    
     Status
+    
     NumEixos
 
 
   VeículoPneu:
   
-  ID (PK)
+    ID (PK)
     Veiculo_ID (FK)
     Pneu_ID (FK)
     Posição
@@ -106,7 +112,7 @@ A estrutura do projeto segue a arquitetura em CAMADAS , dividida nos seguintes p
 
   Pneu:
   
-  ID (PK)
+    ID (PK)
     NúmeroFogo
     Marca
     PressãoAtual
