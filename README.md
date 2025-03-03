@@ -89,15 +89,10 @@ A estrutura do projeto segue a arquitetura em CAMADAS , dividida nos seguintes p
   Veículo:
   
     ID (PK)
-    
     Placa
-    
     Marca
-    
     Quilometragem
-    
     Status
-    
     NumEixos
 
 
