@@ -72,7 +72,7 @@ A estrutura do projeto segue a arquitetura em CAMADAS , dividida nos seguintes p
   Pneus:
     GET /pneus: Listar todos os pneus
 
-    ![image](https://github.com/user-attachments/assets/4a3fd7ad-0d61-4c07-ba9d-08db8fd0895c)
+  ![image](https://github.com/user-attachments/assets/4a3fd7ad-0d61-4c07-ba9d-08db8fd0895c)
 
     
   Veículos
@@ -85,26 +85,29 @@ A estrutura do projeto segue a arquitetura em CAMADAS , dividida nos seguintes p
     
 
 **Banco de Dados**
-  Veículo
+
+  Veículo:
+    ID (PK)
+    Placa
+    Marca
+    Quilometragem
+    Status
+    NumEixos
+
+
+  VeículoPneu:
+  
   ID (PK)
-  Placa
-  Marca
-  Quilometragem
-  Status
-  NumEixos
+    Veiculo_ID (FK)
+    Pneu_ID (FK)
+    Posição
 
 
-  VeículoPneu
+
+  Pneu:
+  
   ID (PK)
-  Veiculo_ID (FK)
-  Pneu_ID (FK)
-  Posição
-
-
-
-  Pneu
-  ID (PK)
-  NúmeroFogo
-  Marca
-  PressãoAtual
-  Status
+    NúmeroFogo
+    Marca
+    PressãoAtual
+    Status
