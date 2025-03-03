@@ -70,14 +70,14 @@ A estrutura do projeto segue a arquitetura em CAMADAS , dividida nos seguintes p
   **Endpoints da API**
 
   Pneus:
-    GET /pneus: Listar todos os pneus
+  - GET /pneus: Listar todos os pneus
 
   ![image](https://github.com/user-attachments/assets/4a3fd7ad-0d61-4c07-ba9d-08db8fd0895c)
 
     
   Veículos
-    GET /veiculos: Listar todos os veículos
-    GET /veiculos/{id}: Buscar veículo por ID com pneus
+  - GET /veiculos: Listar todos os veículos
+  - GET /veiculos/{id}: Buscar veículo por ID com pneus
 
   ![image](https://github.com/user-attachments/assets/50ba9333-d4bb-4ddd-9c58-9cc758dd4931)
   ![image](https://github.com/user-attachments/assets/bdc66b4e-9f67-4d69-afd4-f47973497b8e)
