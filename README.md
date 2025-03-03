@@ -79,32 +79,32 @@ A estrutura do projeto segue a arquitetura em CAMADAS , dividida nos seguintes p
     GET /veiculos: Listar todos os veículos
     GET /veiculos/{id}: Buscar veículo por ID com pneus
 
-    ![image](https://github.com/user-attachments/assets/50ba9333-d4bb-4ddd-9c58-9cc758dd4931)
-    ![image](https://github.com/user-attachments/assets/bdc66b4e-9f67-4d69-afd4-f47973497b8e)
+  ![image](https://github.com/user-attachments/assets/50ba9333-d4bb-4ddd-9c58-9cc758dd4931)
+  ![image](https://github.com/user-attachments/assets/bdc66b4e-9f67-4d69-afd4-f47973497b8e)
 
     
 
 **Banco de Dados**
-Veículo
-ID (PK)
-Placa
-Marca
-Quilometragem
-Status
-NumEixos
+  Veículo
+  ID (PK)
+  Placa
+  Marca
+  Quilometragem
+  Status
+  NumEixos
 
 
-VeículoPneu
-ID (PK)
-Veiculo_ID (FK)
-Pneu_ID (FK)
-Posição
+  VeículoPneu
+  ID (PK)
+  Veiculo_ID (FK)
+  Pneu_ID (FK)
+  Posição
 
 
 
-Pneu
-ID (PK)
-NúmeroFogo
-Marca
-PressãoAtual
-Status
+  Pneu
+  ID (PK)
+  NúmeroFogo
+  Marca
+  PressãoAtual
+  Status
