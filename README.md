@@ -15,10 +15,10 @@ Este é um projeto Spring Boot, Docker. O projeto é uma aplicação de gerencia
 
 A estrutura do projeto segue a arquitetura em CAMADAS , dividida nos seguintes pacotes:
 
-**model:** Contém as classes que representam as entidades do sistema.
-**repository:** Interfaces responsáveis pelo acesso e manipulação dos dados no banco de dados.
-**service:** Camada que implementa as regras de negócio e lógica de processamento da aplicação.
-**controller:** Controladores REST que recebem as requisições, processam os dados via serviços e retornam as respostas.
+-  **model:** Contém as classes que representam as entidades do sistema.
+-  **repository:** Interfaces responsáveis pelo acesso e manipulação dos dados no banco de dados.
+-  **service:** Camada que implementa as regras de negócio e lógica de processamento da aplicação.
+-  **controller:** Controladores REST que recebem as requisições, processam os dados via serviços e retornam as respostas.
 
 
 ## Configuração e Execução do Projeto
