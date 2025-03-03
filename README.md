@@ -85,18 +85,15 @@ Marca
 Quilometragem
 Status
 NumEixos
-        |
-        |
-        v
+
 
 VeículoPneu
 ID (PK)
 Veiculo_ID (FK)
 Pneu_ID (FK)
 Posição
-        |
-        |
-        v
+
+
 
 Pneu
 ID (PK)
