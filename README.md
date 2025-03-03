@@ -10,6 +10,7 @@ Este é um projeto Spring Boot, Docker. O projeto é uma aplicação de gerencia
 - H2 Database
 - Docker
 - Postgres
+- Flyway
 
 ## Estrutura do Projeto
 
